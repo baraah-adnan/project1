@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- tasl css 1-->
+    <div class="table">
+        <table border="1" width="50%">
+            <caption>Ninija Details</caption><br>
+            <hr>
+            <tr>
+                <th style="background-color: yellow;">Name </th>
+                <th style="background-color: yellow;">Age</th>
+                <th style="background-color: yellow;">Grade</th>
+            </tr>
+            <tr>
+                <td style="background-color:hotpink; text-align: center;">Ninja A</td>
+                <td>18</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>Ninja B</td>
+                <td>23</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>Ninja C</td>
+                <td>22</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center;">Ninja C- the best leaner!</td>
+            </tr>
+        </table>
+    </div>
+    <!--  task css 2-->
+    <div class="login">
+        <div class="header">
+            <h2> Login</h2>
+        </div>
+        <div class="content">
+            <input id="sb" type="email" name="email" placeholder="Email" style=" margin-bottom: 30px;"><br>
+            <input id="sb" type="Password" name="pass" placeholder="Password"><br>
+            <input type="checkbox" id="pass" value="show pass">
+            <label class="lable" for="pass">Show password</label>
+            <br><br>
+            <input class="sign" type="submit" value="SIGN IN ">
+            <p>Forgot <span>Username/password</span>?<br>Dont have an account ? <span>Sign up</span></p>
+        </div>
+    </div>
+    <div class=" user-login">
+        <div class="header">
+            <h2 style="color: black;"> USER LOGIN </h2>
+        </div>
+        <div class="u-content">
+            <label class="la" valu="Username" for="un">Username</label><br>
+            <input id="un" type="text" name="user-name" style=" margin-bottom: 30px;" value="admain"><br>
+            <label class="la" valu="password" for="sb">Password</label><br>
+            <input id="un" type="Password" name="pass" placeholder="Password"><br>
+
+            <br><br>
+            <input class="log" type="submit" value="LOGIN ">
+            <p style="color: grey;">Forgot Password?</p>
+
+        </div>
+    </div>
+    <style>
+        .user-login {
+            width: 30%;
+            height: 300px;
+            padding-top: 10px;
+            margin-left: 35%;
+            margin-top: 30px;
+            background-color: rgb(253, 255, 253);
+            border-radius: 5px;
+            padding-bottom: 130px;
+            margin-bottom: 60px;
+
+        }
+
+        .u-content {
+            text-align: center;
+            margin-top: 30px;
+
+
+        }
+
+        .la {
+            color: #36b8a3;
+            margin-left: -250px;
+        }
+
+        #un {
+            width: 70%;
+            padding: 10px;
+            border-top: 1px none;
+            border-left: 1px none;
+            border-right: 1px none;
+
+
+
+        }
+
+        .log {
+            padding: 20px;
+            background-color: #1e8a78;
+            border-radius: 3px;
+            border-style: none;
+            color: aliceblue;
+            width: 70%;
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+    </style>
+    <style>
+        body {
+            background-color: #36b8a3;
+            font-family: Arial, Helvetica, sans-serif;
+
+
+
+        }
+
+        .table {
+            background-color: azure;
+            margin: 30px;
+        }
+
+        .header {
+            text-align: center;
+            color: #36b8a3;
+            padding: 20px;
+            font-size: medium;
+        }
+
+        .login {
+            width: 30%;
+            height: 300px;
+            padding-top: 10px;
+            margin-left: 35%;
+            margin-top: 30px;
+            background-color: rgb(253, 255, 253);
+            border-radius: 5px;
+            padding-bottom: 130px;
+            margin-bottom: 60px;
+
+
+
+
+        }
+
+        .content {
+
+            text-align: center;
+            margin-top: 30px;
+
+
+
+
+        }
+
+        #pass {
+            margin-left: -126px;
+        }
+
+        span {
+            color: #36b8a3;
+        }
+
+        #sb {
+            border-style: ridge;
+            border-color: rgb(244, 245, 247);
+            width: 60%;
+            padding: 13px;
+
+        }
+
+
+
+        .sign {
+            padding: 8px;
+            background-color: #1e8a78;
+            border-radius: 3px;
+            border-style: none;
+            color: aliceblue
+        }
+
+        .lable {
+            font-size: 15px;
+            color: rgb(112, 111, 111);
+        }
+    </style>
+    <div class="linked">
+        <div class="logo">
+            <p>Linked <span class="in">in</span></p>
+        </div>
+        <div class="sign-in">
+            <h4 class="sign2">Sign in </h4>
+            <p class="p1">stay updated on your professional world</p>
+            <input class="input1" type="email" placeholder="Email or phone"><br>
+            <input class="input2" type="password" placeholder="password" value="pass">
+            <p style="color:#0a66c3; font-weight: bold;">Forgot password?</p>
+            <input class="submit1" type="submit" value="sign in">
+            <h5 class="or">or</h5>
+            <input class="submit2" type="submit" value="sign with Apple">
+        </div>
+
+    </div>
+
+
+    <style>
+        .or::before {
+            content: " ";
+            height: 0.3px;
+            background-color: rgb(167, 166, 166);
+            display: block;
+            column-gap: 2rem;
+            position: relative;
+            width: 140px;
+            ;
+
+
+
+        }
+
+        .or::after {
+            content: " ";
+            height: 0.3px;
+            background-color: rgb(167, 166, 166);
+            display: block;
+            width: 140px;
+            column-gap: 2.1rem;
+
+
+
+        }
+
+        .or {
+            display: grid;
+            grid-template-columns: repeat(20, 3fr);
+            align-items: center;
+            color: rgb(167, 166, 166);
+
+
+
+
+
+        }
+
+        .linked {
+            padding-top: 100px;
+            width: 80%;
+            margin-left: 10%;
+            background-color: aliceblue;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 60%;
+
+        }
+
+        .sign-in {
+            background-color: aliceblue;
+
+            padding: 15px;
+            margin-right: -70px;
+            border-radius: 8px;
+            box-shadow: inset 4px 4px 5px rgba(255, 255, 255, 0.3),
+                inset -4px -4px 5px rgba(0, 0, 0, 0.1),
+                10px 40px 40px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
+            width: 30%;
+        }
+
+        .logo {
+            margin-top: -490px;
+            margin-left: -860px;
+            color: #0a66c3;
+            font-weight: bold;
+            font-size: 20px;
+            position: absolute;
+
+
+
+        }
+
+        .in {
+            border-width: 1px;
+            background-color: #0a66c3;
+            color: whitesmoke;
+            border-radius: 2px;
+            margin-bottom: -5px;
+
+
+            padding: 1px;
+            padding-right: 2px;
+            margin-left: -2.5px;
+        }
+
+        .sign2 {
+            font-size: 20px;
+        }
+
+        .p1 {
+            margin-top: -20px;
+            font-size: 13px;
+        }
+
+        .input1 {
+            width: 90%;
+            margin-bottom: 8px;
+            padding: 10px;
+            border-radius: 4px;
+            border: 0.5px solid gray;
+        }
+
+        .input2 {
+            width: 90%;
+            border-radius: 4px;
+            padding: 10px;
+            border: 0.5px solid gray;
+        }
+
+        .submit1 {
+            width: 90%;
+            padding: 10px;
+            font-size: 15px;
+            border-width: 1px;
+            background-color: #0a66c3;
+            color: whitesmoke;
+            border-radius: 15px;
+            font-weight: 500;
+            margin-bottom: -10px;
+            margin-left: 6px;
+
+        }
+
+        .submit2 {
+            width: 90%;
+            padding: 10px;
+            font-size: 15px;
+            border-width: 1px;
+            background-color: white;
+            color: rgb(85, 84, 84);
+            border-radius: 15px;
+            font-weight: 500;
+            margin-top: -10px;
+            margin-left: 6px;
+
+        }
+    </style>
+
+</body>
+
+</html>
