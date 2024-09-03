@@ -1,0 +1,122 @@
+.container {
+    display: grid;
+    width: 40%;
+    margin-left: 30%;
+    background-color: #BEBDED;
+    margin-top: 10%;
+    box-shadow: inset 4px 4px 5px rgba(255, 255, 255, 0.3),
+
+
+
+}
+
+.sign-up {
+    box-shadow: inset 4px 4px 5px rgba(255, 255, 255, 0.3),
+        inset -4px -4px 5px rgba(0, 0, 0, 0.1),
+        10px 40px 40px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas:
+        'h h'
+        'fname laname'
+        'email email'
+        'pass pass'
+        'conf conf'
+        'info info'
+    ;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+    margin-bottom: 4%;
+    background-color: #8887c5;
+    gap: 10px;
+    border-radius: 20px;
+
+
+
+}
+
+h1 {
+    grid-area: h;
+    width: 85%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 7px;
+    text-align: center;
+    color: white;
+}
+
+.f-name {
+    grid-area: fname;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding: 7px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.l-name {
+    grid-area: laname;
+    width: 80%;
+    margin-right: 10%;
+    padding: 7px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.email {
+    grid-area: email;
+    width: 85%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.pass {
+    grid-area: pass;
+    width: 85%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.conf {
+    grid-area: conf;
+    width: 85%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+
+.info {
+    grid-area: info;
+    text-align: center;
+    width: 85%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 7px;
+    color: white;
+
+}
+
+.submit {
+    padding: 10px;
+    width: 85%;
+    margin-top: 13px;
+    border: 1px solid #9e9c9a;
+    border-radius: 15px;
+    background-color: #9e9c9a;
+    color: #8887c5;
+    font-size: 20px;
+}
