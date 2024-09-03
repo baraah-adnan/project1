@@ -1,0 +1,118 @@
+.big-container {
+    width: 60%;
+    background-color: blueviolet;
+    margin-left: 20%;
+    display: grid;
+    margin-top: 20%;
+
+}
+
+
+.container {
+    width: 80%;
+    padding: 5%;
+    margin-top: 10%;
+    margin-left: 5%;
+    text-align: center;
+    margin-bottom: 10%;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-areas:
+        'image login'
+    ;
+    border-radius: 15px;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+
+
+.login {
+    grid-area: login;
+
+}
+
+.imag {
+    grid-area: image;
+}
+
+.email {
+    margin-bottom: 10px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.submit {
+    margin-top: 10px;
+    width: 70%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    background-color: lime;
+    color: white;
+}
+
+
+
+
+.pass {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+.icon1 {
+    position: relative;
+}
+
+.icon1 i {
+    position: absolute;
+    top: 8px;
+    left: 80px;
+
+}
+
+.icon2 {
+    position: relative;
+}
+
+.icon2 i {
+    position: absolute;
+    top: 8px;
+    left: 80px;
+    ;
+
+}
+
+.imag {
+    width: 50%;
+        margin-top: 80px;
+            margin-right: 25%;
+            margin-left: 25%;
+}
+
+.imag i {
+    font-size: 100px;
+    
+}
